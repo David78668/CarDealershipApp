@@ -6,6 +6,9 @@ namespace CarDealershipApp
     {
         List<Form> FormList = new();
         DealersForm dealersForm = new();
+        CarsForm carsForm = new();
+        CustomersForm customersForm = new();
+        CarOrdersForm carOrdersForm = new();
 
         public Form1()
         {
@@ -16,6 +19,9 @@ namespace CarDealershipApp
         public void Init()
         {
             FormList.Add(dealersForm);
+            FormList.Add(carsForm);
+            FormList.Add(customersForm);
+            FormList.Add(carOrdersForm);
 
             foreach (var form in FormList)
             {
@@ -31,9 +37,13 @@ namespace CarDealershipApp
         {
            foreach(var form in FormList)
             {
-                if (formsSelectBox.SelectedItem == form.Text)
+                if (formsSelectBox.SelectedItem.ToString() == form.Text)
                 {
                     form.Show();
+                }
+                else
+                {
+                    form.Hide();
                 }
             }
 
