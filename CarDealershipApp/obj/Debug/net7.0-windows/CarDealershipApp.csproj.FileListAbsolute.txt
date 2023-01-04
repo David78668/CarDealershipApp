@@ -60,3 +60,5 @@ C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-w
 C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarsForm.resources
 C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CustomersForm.resources
 C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarOrdersForm.resources
+C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarOrdersListForm.resources
+C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.Controls.CarOrderControl.resources

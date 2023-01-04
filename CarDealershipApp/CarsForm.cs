@@ -23,6 +23,7 @@ namespace CarDealershipApp
         public void Init()
         {
             carsDataGrid.DataSource = Database.Cars.ToList();
+            carsDataGrid.Columns["CarOrders"].Visible = false;
         }
 
         private void addCarBTN_Click(object sender, EventArgs e)
