@@ -26,6 +26,6 @@ CDA (Car Dealership App) is a C# WinForm application with SQL DB designed to hel
 - Create entry -> Enter or select data and Click 🟥
 - Delete a entry -> Click 🟦  (on the same row as the entry)
 
-![](https://im2.ezgif.com/tmp/ezgif-2-b4af2f849a.gif)
+![](https://s9.gifyu.com/images/CDA.gif)
 ### Last words
 Keep in mind the application was designed for user friendly browsing and adding / removing entries of a SQL database, rather than just adding a ton of features making the application more in-depth, but crowded.
