@@ -60,5 +60,69 @@ C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-w
 C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarsForm.resources
 C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CustomersForm.resources
 C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarOrdersForm.resources
-C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarOrdersListForm.resources
 C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.Controls.CarOrderControl.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\CarDealershipApp.exe
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\CarDealershipApp.deps.json
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\CarDealershipApp.runtimeconfig.json
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\CarDealershipApp.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\CarDealershipApp.pdb
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Azure.Core.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Azure.Identity.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Identity.Client.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\System.Memory.Data.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\System.Runtime.Caching.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\bin\Debug\net7.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.csproj.AssemblyReference.cache
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarOrdersForm.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CarsForm.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.Controls.CarOrderControl.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.CustomersForm.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.DealersForm.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.Form1.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.Properties.Resources.resources
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.csproj.GenerateResource.cache
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.AssemblyInfoInputs.cache
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.AssemblyInfo.cs
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.csproj.CoreCompileInputs.cache
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.csproj.CopyComplete
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\refint\CarDealershipApp.dll
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.pdb
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.genruntimeconfig.cache
+C:\Users\davek\source\repos\CarDealershipApp - Copy\CarDealershipApp\obj\Debug\net7.0-windows\ref\CarDealershipApp.dll
+C:\Users\davek\source\repos\CarDealershipApp\CarDealershipApp\obj\Debug\net7.0-windows\CarDealershipApp.Properties.Resources.resources

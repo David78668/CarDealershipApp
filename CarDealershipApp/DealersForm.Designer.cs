@@ -38,7 +38,10 @@
             this.surnameTextBox = new System.Windows.Forms.TextBox();
             this.nameTextBox = new System.Windows.Forms.TextBox();
             this.addDealerBTN = new System.Windows.Forms.Button();
+            this.carSalesDatagrid = new System.Windows.Forms.DataGridView();
+            this.carSalesAvgLB = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dealersDataGrid)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.carSalesDatagrid)).BeginInit();
             this.SuspendLayout();
             // 
             // dealersDataGrid
@@ -50,7 +53,7 @@
             this.dealersDataGrid.Name = "dealersDataGrid";
             this.dealersDataGrid.RowHeadersWidth = 51;
             this.dealersDataGrid.RowTemplate.Height = 29;
-            this.dealersDataGrid.Size = new System.Drawing.Size(776, 320);
+            this.dealersDataGrid.Size = new System.Drawing.Size(671, 297);
             this.dealersDataGrid.TabIndex = 0;
             this.dealersDataGrid.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dealersDataGrid_RowHeaderMouseClick);
             // 
@@ -133,12 +136,38 @@
             this.addDealerBTN.UseVisualStyleBackColor = false;
             this.addDealerBTN.Click += new System.EventHandler(this.addDealerBTN_Click);
             // 
+            // carSalesDatagrid
+            // 
+            this.carSalesDatagrid.AllowUserToAddRows = false;
+            this.carSalesDatagrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.carSalesDatagrid.BackgroundColor = System.Drawing.Color.White;
+            this.carSalesDatagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.carSalesDatagrid.Location = new System.Drawing.Point(689, 59);
+            this.carSalesDatagrid.Name = "carSalesDatagrid";
+            this.carSalesDatagrid.RowHeadersVisible = false;
+            this.carSalesDatagrid.RowHeadersWidth = 51;
+            this.carSalesDatagrid.RowTemplate.Height = 29;
+            this.carSalesDatagrid.Size = new System.Drawing.Size(101, 297);
+            this.carSalesDatagrid.TabIndex = 20;
+            // 
+            // carSalesAvgLB
+            // 
+            this.carSalesAvgLB.AutoSize = true;
+            this.carSalesAvgLB.ForeColor = System.Drawing.Color.White;
+            this.carSalesAvgLB.Location = new System.Drawing.Point(641, 363);
+            this.carSalesAvgLB.Name = "carSalesAvgLB";
+            this.carSalesAvgLB.Size = new System.Drawing.Size(131, 20);
+            this.carSalesAvgLB.TabIndex = 21;
+            this.carSalesAvgLB.Text = "Average car sales: ";
+            // 
             // DealersForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(802, 393);
+            this.Controls.Add(this.carSalesAvgLB);
+            this.Controls.Add(this.carSalesDatagrid);
             this.Controls.Add(this.addDealerBTN);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -152,6 +181,7 @@
             this.Name = "DealersForm";
             this.Text = "DealersForm";
             ((System.ComponentModel.ISupportInitialize)(this.dealersDataGrid)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.carSalesDatagrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,5 +199,7 @@
         private TextBox surnameTextBox;
         private TextBox nameTextBox;
         private Button addDealerBTN;
+        private DataGridView carSalesDatagrid;
+        private Label carSalesAvgLB;
     }
 }

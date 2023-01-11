@@ -19,6 +19,7 @@ namespace CarDealershipApp
         {
             InitializeComponent();
             Init();
+            Database = new DB();
         }
 
         public void Init()

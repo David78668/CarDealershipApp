@@ -31,6 +31,7 @@ namespace CarDealershipApp
                 formsPanel.Controls.Add(form);
                 formsSelectBox.Items.Add(form.Text);
             }
+            formsSelectBox.SelectedIndex = 0;
         }
 
         private void formsSelectBox_SelectedIndexChanged(object sender, EventArgs e)

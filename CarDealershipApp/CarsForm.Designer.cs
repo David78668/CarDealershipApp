@@ -38,6 +38,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.averagePriceLB = new System.Windows.Forms.Label();
+            this.averageCarYearLB = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.carsDataGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +52,7 @@
             this.carsDataGrid.Name = "carsDataGrid";
             this.carsDataGrid.RowHeadersWidth = 51;
             this.carsDataGrid.RowTemplate.Height = 29;
-            this.carsDataGrid.Size = new System.Drawing.Size(776, 320);
+            this.carsDataGrid.Size = new System.Drawing.Size(776, 280);
             this.carsDataGrid.TabIndex = 0;
             this.carsDataGrid.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.carsDataGrid_RowHeaderMouseClick);
             // 
@@ -133,12 +135,34 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Price";
             // 
+            // averagePriceLB
+            // 
+            this.averagePriceLB.AutoSize = true;
+            this.averagePriceLB.ForeColor = System.Drawing.Color.White;
+            this.averagePriceLB.Location = new System.Drawing.Point(229, 355);
+            this.averagePriceLB.Name = "averagePriceLB";
+            this.averagePriceLB.Size = new System.Drawing.Size(213, 20);
+            this.averagePriceLB.TabIndex = 10;
+            this.averagePriceLB.Text = "Average car price: calculating...";
+            // 
+            // averageCarYearLB
+            // 
+            this.averageCarYearLB.AutoSize = true;
+            this.averageCarYearLB.ForeColor = System.Drawing.Color.White;
+            this.averageCarYearLB.Location = new System.Drawing.Point(15, 355);
+            this.averageCarYearLB.Name = "averageCarYearLB";
+            this.averageCarYearLB.Size = new System.Drawing.Size(208, 20);
+            this.averageCarYearLB.TabIndex = 11;
+            this.averageCarYearLB.Text = "Average car year: calculating...";
+            // 
             // CarsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(802, 393);
+            this.Controls.Add(this.averageCarYearLB);
+            this.Controls.Add(this.averagePriceLB);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -169,5 +193,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private Label averagePriceLB;
+        private Label averageCarYearLB;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using CarDealershipApp.Database;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +25,17 @@ namespace CarDealershipApp
         {
             carsDataGrid.DataSource = Database.Cars.ToList();
             carsDataGrid.Columns["CarOrders"].Visible = false;
+
+            List<int> prices = new List<int>();
+            List<int> years = new List<int>();
+            foreach (Car car in Database.Cars) 
+            { 
+                prices.Add(Convert.ToInt32(car.Price));
+                years.Add(Convert.ToInt32(car.Year));
+            }
+
+            averagePriceLB.Text = $"Average car price: {(int)prices.Average()}";
+            averageCarYearLB.Text = $"Average car year: {(int)years.Average()}";
         }
 
         private void addCarBTN_Click(object sender, EventArgs e)

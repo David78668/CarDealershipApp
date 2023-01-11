@@ -1,4 +1,5 @@
-﻿using CarDealershipApp.Database;
+﻿using CarDealershipApp.Controls;
+using CarDealershipApp.Database;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,57 +15,63 @@ namespace CarDealershipApp
     public partial class CarOrdersForm : Form
     {
         DB Database = new DB();
-        CarOrdersListForm carOrderListForm = new();
 
         public CarOrdersForm()
         {
             InitializeComponent();
             ComboBoxInit();
-            DataInit();
             FormInit();
+        }
+
+        public void FormInit()
+        {
+            ordersPanel.Controls.Clear();
+            Point P = new Point(0, 0);
+
+            foreach (CarOrder order in Database.CarOrders.ToList())
+            {
+                CarOrderControl control = new(order);
+
+                control.Location = P;
+
+                control.OnDelete += Reload;
+
+                ordersPanel.Controls.Add(control);
+
+                P = new Point(0, P.Y + control.Height);
+            }
+            ordersPanel.AutoScroll = false;
+            ordersPanel.HorizontalScroll.Enabled = false;
+            ordersPanel.HorizontalScroll.Visible = false;
+            ordersPanel.HorizontalScroll.Maximum = 0;
+            ordersPanel.AutoScroll = true;
         }
 
         public void ComboBoxInit()
         {
-            foreach (var customer in Database.Customers.ToList())
+            customerComboBox.Items.Clear();
+            carComboBox.Items.Clear();
+            dealerComboBox.Items.Clear();
+
+            foreach (Customer customer in Database.Customers.ToList())
             {
                 customerComboBox.Items.Add($"(id:{customer.Id}) {customer.Name} {customer.Surname}");
             }
-
-            foreach (var car in Database.Cars.ToList())
+            foreach (Car car in Database.Cars.ToList().Where(car => car.Status == 1))
             {
                 carComboBox.Items.Add($"(id:{car.Id}) {car.Brand} {car.Model} {car.Year}");
             }
-            foreach(var dealer in Database.Dealers.ToList())
+            foreach(Dealer dealer in Database.Dealers.ToList())
             {
                 dealerComboBox.Items.Add($"(id:{dealer.Id}) {dealer.Name} {dealer.Surname}");
             }
         }
 
-        public void DataInit()
+        private void Reload(CarOrderControl sender)
         {
-            foreach (var order in Database.CarOrders.ToList())
-            {
-                Customer OrderCustomer = Database.Customers.SingleOrDefault(customer => customer.Id == order.CustomerId);
-                Car OrderCar = Database.Cars.SingleOrDefault(car => car.Id == order.CarId);
-                Dealer OrderDealer = Database.Dealers.SingleOrDefault(dealer => dealer.Id == order.DealerId);
-
-            }
-        }
-
-        public void FormInit()
-        {
-            carOrderListForm.TopLevel = false;
-            carOrderListForm.AutoScroll = true;
-            carOrderListForm.FormBorderStyle = FormBorderStyle.None;
-
-            formPanel.Controls.Add(carOrderListForm);
-            formPanel.AutoScroll = false;
-            formPanel.HorizontalScroll.Enabled = false;
-            formPanel.HorizontalScroll.Visible = false;
-            formPanel.HorizontalScroll.Maximum = 0;
-            formPanel.AutoScroll = true;
-            carOrderListForm.Show();
+            Database = new DB();
+            ComboBoxInit();
+            FormInit();
         }
 
         private void addOrderBTN_Click(object sender, EventArgs e)
@@ -77,6 +84,16 @@ namespace CarDealershipApp
             Car selectedCar = Database.Cars.SingleOrDefault(car => carId == car.Id);
             selectedCar.Status = 2;
             Database.SaveChanges();
+
+            FormInit();
+            ComboBoxInit();
+
+            customerComboBox.SelectedIndex = -1;
+            customerComboBox.Text = "";
+            carComboBox.SelectedIndex = -1;
+            carComboBox.Text = "";
+            dealerComboBox.SelectedIndex = -1;
+            dealerComboBox.Text = "";
         }
     }
 }

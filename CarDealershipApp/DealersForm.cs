@@ -16,6 +16,7 @@ namespace CarDealershipApp
         DB Database = new DB();
         public DealersForm()
         {
+            Database = new DB();
             InitializeComponent();
             Init();
         }
@@ -24,8 +25,27 @@ namespace CarDealershipApp
         {
             dealersDataGrid.DataSource = Database.Dealers.ToList();
             dealersDataGrid.Columns["CarOrders"].Visible = false;
-        }
 
+            DataTable carSalesTable = new DataTable();
+
+            carSalesTable.Columns.Add("Car Sales");
+
+            List<int> carSalesList = new List<int>();
+            int carSales;
+            foreach(Dealer dealer in Database.Dealers.ToList()) 
+            {
+                carSales = 0;
+                foreach(CarOrder order in Database.CarOrders.ToList())
+                {
+                    if(order.DealerId == dealer.Id) { carSales++; }
+                }
+                carSalesTable.Rows.Add(new object[] { carSales });
+                carSalesList.Add(carSales);
+            }
+
+            carSalesDatagrid.DataSource = carSalesTable;
+            carSalesAvgLB.Text = $"Average car sales: {carSalesList.Average().ToString()}";
+        }
         private void addDealerBTN_Click(object sender, EventArgs e)
         {
             Database.Dealers.Add(new Dealer() { Name = nameTextBox.Text, Surname = surnameTextBox.Text, Email = emailTextBox.Text, Tel = phoneTextBox.Text });
@@ -35,7 +55,7 @@ namespace CarDealershipApp
 
         private void dealersDataGrid_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            Database.Dealers.Remove(Database.Dealers.Where(i => int.Parse(dealersDataGrid.Rows[e.RowIndex].Cells[0].Value.ToString()) == i.Id).FirstOrDefault());
+            Database.Dealers.Remove(Database.Dealers.SingleOrDefault(i => int.Parse(dealersDataGrid.Rows[e.RowIndex].Cells[0].Value.ToString()) == i.Id));
             Database.SaveChanges();
             Init();
         }

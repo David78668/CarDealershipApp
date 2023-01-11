@@ -43,7 +43,6 @@
             // 
             // customersDataGrid
             // 
-            this.customersDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.customersDataGrid.BackgroundColor = System.Drawing.Color.White;
             this.customersDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.customersDataGrid.Location = new System.Drawing.Point(12, 59);
@@ -58,7 +57,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(563, 5);
+            this.label4.Location = new System.Drawing.Point(539, 5);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 20);
             this.label4.TabIndex = 18;
@@ -68,7 +67,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(433, 5);
+            this.label3.Location = new System.Drawing.Point(409, 5);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 20);
             this.label3.TabIndex = 17;
@@ -78,7 +77,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(301, 5);
+            this.label2.Location = new System.Drawing.Point(277, 5);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 20);
             this.label2.TabIndex = 16;
@@ -88,7 +87,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(170, 5);
+            this.label1.Location = new System.Drawing.Point(146, 5);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(49, 20);
             this.label1.TabIndex = 15;
@@ -97,38 +96,38 @@
             // addCustomerBTN
             // 
             this.addCustomerBTN.BackColor = System.Drawing.Color.White;
-            this.addCustomerBTN.Location = new System.Drawing.Point(691, 24);
+            this.addCustomerBTN.Location = new System.Drawing.Point(667, 24);
             this.addCustomerBTN.Name = "addCustomerBTN";
-            this.addCustomerBTN.Size = new System.Drawing.Size(94, 29);
+            this.addCustomerBTN.Size = new System.Drawing.Size(121, 29);
             this.addCustomerBTN.TabIndex = 14;
-            this.addCustomerBTN.Text = "Add Car";
+            this.addCustomerBTN.Text = "Add Customer";
             this.addCustomerBTN.UseVisualStyleBackColor = false;
             this.addCustomerBTN.Click += new System.EventHandler(this.addCustomerBTN_Click);
             // 
             // phoneTextBox
             // 
-            this.phoneTextBox.Location = new System.Drawing.Point(560, 26);
+            this.phoneTextBox.Location = new System.Drawing.Point(536, 26);
             this.phoneTextBox.Name = "phoneTextBox";
             this.phoneTextBox.Size = new System.Drawing.Size(125, 27);
             this.phoneTextBox.TabIndex = 13;
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(429, 26);
+            this.emailTextBox.Location = new System.Drawing.Point(405, 26);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(125, 27);
             this.emailTextBox.TabIndex = 12;
             // 
             // surnameTextBox
             // 
-            this.surnameTextBox.Location = new System.Drawing.Point(298, 26);
+            this.surnameTextBox.Location = new System.Drawing.Point(274, 26);
             this.surnameTextBox.Name = "surnameTextBox";
             this.surnameTextBox.Size = new System.Drawing.Size(125, 27);
             this.surnameTextBox.TabIndex = 11;
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(167, 26);
+            this.nameTextBox.Location = new System.Drawing.Point(143, 26);
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(125, 27);
             this.nameTextBox.TabIndex = 10;
